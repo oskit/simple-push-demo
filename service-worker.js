@@ -3,8 +3,8 @@
 self.addEventListener('push', function(event) {
   console.log('Received a push message', event);
 
-  var title = 'ぺろぺろ';
-  var body = 'おぺろぺろ';
+  var title = '新商品追加メッセージ';
+  var body = '';
   var icon = '/images/icon-192x192.png';
   var tag = 'simple-push-demo-notification-tag';
 
